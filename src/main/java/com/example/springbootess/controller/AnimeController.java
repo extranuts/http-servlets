@@ -23,8 +23,13 @@ public class AnimeController {
 
     @GetMapping(path = "/list")
     public List<Anime> listAll() {
-        log.info("Date Formatted {}", dateUtil.formatLocalDateTimeToDataBaseStyle(LocalDateTime.now()));
-        return Arrays.asList(new Anime("AAA"), new Anime("BBB"));
+        log.info("Date Formatted {}",
+                dateUtil.formatLocalDateTimeToDataBaseStyle(LocalDateTime.now()));
+
+        return Arrays.asList(
+                new Anime("Унесенные призраками"),
+                new Anime("Ходячий замок")
+        );
     }
 
 }
