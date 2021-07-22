@@ -6,6 +6,9 @@ import com.example.springbootess.repository.AnimeRepository;
 import com.example.springbootess.util.Util;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -27,6 +30,8 @@ public class AnimeService {
         return utils.findAnimeOrThrowNotFound(id, animeRepository);
     }
 
+    @Transactional(isolation = Isolation.REPEATABLE_READ,
+                    propagation = Propagation.REQUIRED)
     public Anime save(Anime anime) {
         return animeRepository.save(anime);
     }
