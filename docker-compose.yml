@@ -1,14 +1,11 @@
 version: '3.1'
 services:
   db:
-    image: mysql
-    container_name: springboot_mysql
-    entrypoint:
-      MYSQL_ROOT_PASSWORD: root
+    image: postgres
+    container_name: sbenv
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
     ports:
-    - "3306:3306"
-    volumes:
-    - anime_data:/var/lib/mysql
+      - "5432:5432"
 
-volumes:
-  anime_data:
