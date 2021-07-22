@@ -1,10 +1,9 @@
 package com.example.springbootess.util;
 
 import com.example.springbootess.domain.Anime;
+import com.example.springbootess.exception.ResourceNotFoundException;
 import com.example.springbootess.repository.AnimeRepository;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
-import org.springframework.web.server.ResponseStatusException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -19,7 +18,7 @@ public class Util {
 
     return animeRepository
             .findById(id)
-            .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Anime is not FOUND"));
+            .orElseThrow(() -> new ResourceNotFoundException("Anime is not FOUND"));
 
     }
 }
