@@ -4,7 +4,6 @@ package com.example.springbootess.domain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.NotFound;
 import org.hibernate.validator.constraints.URL;
 
 import javax.persistence.Entity;
