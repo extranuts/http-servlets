@@ -1,2 +1,160 @@
 GET http://localhost:8080/anime
 
+GET http://localhost:8080/anime
+
+
+
+###
+
+GET http://localhost:8080/anime
+
+
+
+###
+
+GET http://localhost:8080/anime/find
+
+
+
+###
+
+GET http://localhost:8080/anime/{id}
+
+###
+
+GET http://localhost:8080/{repository}/{id}/{property}
+Accept: application/hal+json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T123030-2.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T123030-1.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T123030.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T123029-4.200.json
+
+###
+
+GET http://localhost:8080/{repository}/{id}/{property}
+Accept: application/hal+json
+
+###
+
+GET http://localhost:8080/anime/2
+
+<> 2021-10-18T123029-3.200.json
+
+###
+
+GET http://localhost:8080/anime/1
+
+<> 2021-10-18T123029-2.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T123029-1.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T123029.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T123007-2.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T123007-1.200.json
+
+###
+
+GET http://localhost:8080/anime/1
+
+<> 2021-10-18T123007.400.json
+
+###
+
+GET http://localhost:8080/anime/2
+
+###
+
+GET http://localhost:8080/
+Accept: application/hal+json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T123007.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T123006.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T122955.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-18T122944.200.json
+
+###
+
+GET http://localhost:8080/{repository}/{id}/{property}
+Accept: application/hal+json
+
+###
+
+GET http://localhost:8080/anime/{id}
+
+###
+
+GET http://localhost:8080/anime/find
+
+<> 2021-10-17T203222.400.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-17T203206.200.json
+
+###
+
+GET http://localhost:8080/anime
+
+<> 2021-10-17T203058.200.json
+
+###
+
