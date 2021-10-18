@@ -31,3 +31,7 @@ management:
     web:
       exposure:
         include: '*'
+  metrics:
+    export:
+      jmx:
+        enabled: true

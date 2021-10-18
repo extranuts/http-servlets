@@ -10,7 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.Arrays;
-import java.util.List;
 
 @Slf4j
 public class SpringClient {
@@ -39,7 +38,7 @@ public class SpringClient {
                         new ParameterizedTypeReference<PageableResponse<Anime>>() {
                         });
 
-        log.info("Anime array {}",exchangeAnimeList.getBody());
+        log.info("Anime array {}", exchangeAnimeList.getBody());
 
 
     }
