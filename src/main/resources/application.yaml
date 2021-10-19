@@ -35,3 +35,7 @@ management:
     export:
       jmx:
         enabled: true
+
+word-config:
+  luckyWord: Potato
+  preamble: Today luckyWord is

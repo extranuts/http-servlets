@@ -35,3 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+/scripts/grafana/csv/
+/scripts/grafana/plugins/
+!/scripts/grafana/png/
+/scripts/grafana/png/
+/scripts/grafana/grafana.db
