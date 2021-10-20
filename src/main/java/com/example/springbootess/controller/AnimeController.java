@@ -2,6 +2,7 @@ package com.example.springbootess.controller;
 
 import com.example.springbootess.domain.Anime;
 import com.example.springbootess.service.AnimeService;
+import com.example.springbootess.util.PureTX;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;

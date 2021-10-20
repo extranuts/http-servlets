@@ -3,6 +3,7 @@ package com.example.springbootess.service;
 
 import com.example.springbootess.domain.Anime;
 import com.example.springbootess.repository.AnimeRepository;
+import com.example.springbootess.util.PureTX;
 import com.example.springbootess.util.Util;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -13,7 +14,6 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-
 
 @Repository
 @RequiredArgsConstructor

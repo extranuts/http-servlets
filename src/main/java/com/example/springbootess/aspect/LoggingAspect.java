@@ -16,6 +16,4 @@ public class LoggingAspect {
                 "Before metod call - " + joinPoint.getSignature().getName()
         );
     }
-
-
 }
